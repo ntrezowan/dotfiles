@@ -2,7 +2,7 @@ This Brewfile installs all the necessary packages (according to me) required aft
 
 1. Install Homebrew;
     ```bash
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
   
 2. Install Bundle;
