@@ -4,7 +4,11 @@ This Brewfile installs all the necessary packages (according to me) required aft
     ```bash
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
-  
+2. Clone the repo;
+    ```
+    git clone https://github.com/ntrezowan/device-config.git
+    cd device-config
+    ```
 2. Install Bundle;
     ```bash
     brew bundle install
