@@ -13,7 +13,7 @@ This Brewfile installs all the necessary packages (according to me) required aft
     ```bash
     brew bundle install
     ```
-3. Remove packages not installed from `Brewfile`;
+3. Remove packages not installed from Brewfile;
     ```
     brew bundle --force cleanup
     ```
