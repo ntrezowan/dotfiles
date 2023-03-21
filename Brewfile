@@ -1,7 +1,11 @@
 ##
-# Do not forget to manually install Office 365, Teams, OneDrive, Microsoft Remote Desktop
+# Do not forget to manually install Office 365, Teams, 
+# OneDrive, Microsoft Remote Desktop, Amphetamine and Bandwidth+.
 ##
 
+##
+# Default application directory
+##
 cask_args appdir: "/Applications"
 
 ##
@@ -15,7 +19,7 @@ brew tap homebrew/core
 brew tap hashicorp/tap
 
 ##
-# CASK
+# Cask
 ##
 brew install --cask amazon-chime
 brew install --cask authy
