@@ -7,5 +7,9 @@ This Brewfile installs all the necessary packages (according to me) required aft
   
 2. Install Bundle;
     ```bash
-    brew tap Homebrew/bundle
+    brew bundle install
+    ```
+3. Remove packages not installed from `Brewfile`;
+    ```
+    brew bundle --force cleanup
     ```
