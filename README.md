@@ -1,5 +1,7 @@
 This Brewfile installs all the necessary packages (according to me) required after getting a freshly installed MacOS.
 
+---
+
 ### How to install packages
 
 1. Install Homebrew
