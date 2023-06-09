@@ -26,7 +26,7 @@ This Brewfile installs all the necessary packages (according to me) required aft
 
 ### How to enable automatic package update
 
-1. Enable auto update
+1. Enable Brew auto update
     ```
     brew tap homebrew/autoupdate
     ```
