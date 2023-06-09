@@ -1,6 +1,6 @@
 This Brewfile installs all the necessary packages (according to me) required after getting a freshly installed MacOS.
 
----
+### How to install packages
 
 1. Install Homebrew
     ```bash
@@ -19,3 +19,10 @@ This Brewfile installs all the necessary packages (according to me) required aft
     ```
     brew bundle --force cleanup
     ```
+
+---
+
+### How to enable automatic package update
+```
+brew tap homebrew/autoupdate
+```
