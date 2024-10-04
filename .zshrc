@@ -34,7 +34,19 @@ function fh() {
 # KUBECTL
 source <(kubectl completion zsh)
 
-# PROMPT
+# PROMPT (Starship)
 eval "$(starship init zsh)"
 eval "$(fzf --zsh)"
 export PATH="/usr/local/sbin:$PATH"
+
+# PROMPT (Pure)
+#autoload -U promptinit; promptinit
+#PURE_CMD_MAX_EXEC_TIME=10
+#PURE_PROMPT_SYMBOL="$"
+#PURE_PROMPT_SYMBOL='»'
+#PURE_GIT_DOWN_ARROW='↓'
+#PURE_GIT_UP_ARROW='↑'
+#print() {
+#  [ 0 -eq $# -a "prompt_pure_precmd" = "${funcstack[-1]}" ] || builtin print "$@";
+#}
+#prompt pure
