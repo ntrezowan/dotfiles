@@ -10,8 +10,8 @@ This Brewfile installs all the necessary packages (according to me) required aft
     ```
 2. Clone the repo
     ```
-    git clone https://github.com/ntrezowan/device-config.git
-    cd device-config
+    git clone https://github.com/ntrezowan/workstation-config.git
+    cd workstation-config
     ```
 2. Install Bundle
     ```bash
