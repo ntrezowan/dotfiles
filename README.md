@@ -44,3 +44,9 @@ This Brewfile installs all the necessary packages (according to me) required aft
     ```shell
     sudo pmset -a hibernatemode 25
     ```
+2. Alacritty terminal font renders as bold and to avoid this -
+
+    ```shell
+    defaults write org.alacritty AppleFontSmoothing -int 0
+    ```
+
