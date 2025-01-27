@@ -50,3 +50,21 @@ This Brewfile installs all the necessary packages (according to me) required aft
     defaults write org.alacritty AppleFontSmoothing -int 0
     ```
 
+3. Check Battery health
+
+    Run the following 
+    
+    ```shell
+    ioreg -l -w0 | grep Capacity
+        | |           "AppleRawCurrentCapacity" = 7556
+        | |           "AppleRawMaxCapacity" = 7969
+        | |           "MaxCapacity" = 7969
+        | |           "CurrentCapacity" = 7556
+        | |           "LegacyBatteryInfo" = {"Amperage"=1045,"Flags"=7,"Capacity"=7969,"Current"=7556,"Voltage"=12997,"Cycle Count"=111}
+        | |           "BatteryData" = {"StateOfCharge"=95,"PMUConfigured"=896,"CellVoltage"=(4340,4326,4332),"AdapterPower"=1107308657,"Serial"="D861435N2WLFWLKHV","SystemPower"=6844,"LifetimeData"={"UpdateTime"=1737996732},"DesignCapacity"=8755,"CycleCount"=111,"Voltage"=13022,"Qmax"=(9143,9121,9130)}
+        | |           "DesignCapacity" = 8755
+    ```
+    
+    State of Charge = AppleRawCurrentCapacity/AppleRawMaxCapacity
+   
+    State of Health = AppleRawMaxCapacity/DesignCapacity
