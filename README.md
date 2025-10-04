@@ -1,3 +1,4 @@
+### Steps
 1. Install Dropbox, sign in
 2. Run setup
 
@@ -5,9 +6,12 @@
 
 3. Restart
 
+---
 
+### Files
 ```
 ~/Dropbox/dotfiles/
+├── README.md
 ├── Brewfile
 ├── config/
 │   ├── fish/
@@ -24,5 +28,6 @@
 │   └── config
 ├── .zshrc
 ├── .zprofile
-└── .vimrc
+├── .vimrc
+└── wallpapers/
 ```
