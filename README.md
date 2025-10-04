@@ -6,9 +6,7 @@
 
 3. Create symlinks
 
-  ```
-  bash ~/Dropbox/dotfiles/scripts/symlinks.sh
-  ```
+      `bash ~/Dropbox/dotfiles/scripts/symlinks.sh`
 
 4. Install apps
 
