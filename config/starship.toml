@@ -1,0 +1,45 @@
+format = "$all"
+
+"$schema" = 'https://starship.rs/config-schema.json'
+ 
+add_newline = false
+
+[character]
+success_symbol = "[\\$](yellow)"
+error_symbol = "[\\$](red)"
+
+[line_break]
+disabled = true
+
+[directory]
+truncation_length = 1
+
+[package]
+disabled = true
+
+[cmd_duration]
+min_time = 10_000
+format = "|[$duration]($style)| "
+
+[git_branch]
+format = "[$symbol$branch]($style)"
+
+[git_status]
+format = '$all_status$ahead_behind '
+ahead = '[⬆](bold purple) '
+behind = '[⬇](bold purple) '
+staged = '[✚](green) '
+deleted = '[✖](red) '
+renamed = '[➜](purple) '
+stashed = '[✭](cyan) '
+untracked = '[◼](white) '
+modified = '[✱](blue) '
+conflicted = '[═](yellow) '
+diverged = '⇕ '
+up_to_date = ''
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+
+[python]
+format = "[$virtualenv]($style) "

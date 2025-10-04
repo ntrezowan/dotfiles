@@ -1,0 +1,64 @@
+# ============================================================================= 
+# Theme for Alacritty
+# (goes to ~/.config/alacritty/gruvbox-material-dark-medium.toml)
+# ============================================================================= 
+
+[colors.primary]
+background = "#282828"
+foreground = "#D4BE98"
+
+[colors.cursor]
+text = "#282828"
+cursor = "#D4BE98"
+
+[colors.vi_mode_cursor]
+text = "#282828"
+cursor = "#D4BE98"
+
+[colors.selection]
+text = "CellForeground"
+background = "#3C3836"
+
+[colors.search.matches]
+foreground = "#282828"
+background = "#D8A657"
+
+[colors.search.focused_match]
+foreground = "#282828"
+background = "#E78A4E"
+
+[colors.footer_bar]
+background = "#282828"
+foreground = "#D4BE98"
+
+[colors.hints.start]
+foreground = "#282828"
+background = "#D8A657"
+
+[colors.hints.end]
+foreground = "#282828"
+background = "#3C3836"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.normal]
+black = "#32302F"
+red = "#EA6962"
+green = "#A9B665"
+yellow = "#D8A657"
+blue = "#7DAEA3"
+magenta = "#D3869B"
+cyan = "#89B482"
+white = "#D4BE98"
+
+[colors.bright]
+black = "#928374"
+red = "#EA6962"
+green = "#A9B665"
+yellow = "#D8A657"
+blue = "#7DAEA3"
+magenta = "#D3869B"
+cyan = "#89B482"
+white = "#DDC7A1"

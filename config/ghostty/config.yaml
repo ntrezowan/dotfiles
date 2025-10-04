@@ -1,0 +1,31 @@
+theme = gruvbox-material-dark-medium
+font-family = JetBrains Mono NL
+font-feature = -calt, -liga, -dlig
+font-size = 14
+#font-thicken = true
+
+cursor-style-blink = false
+cursor-style = block
+
+mouse-hide-while-typing = true
+macos-titlebar-style=transparent
+copy-on-select = clipboard
+desktop-notifications = false
+command = /opt/homebrew/bin/fish
+selection-invert-fg-bg = true
+shell-integration-features = no-cursor,sudo,no-title
+
+window-padding-x = 4
+window-padding-y = 4
+window-padding-balance = true
+window-colorspace = display-p3
+window-save-state = always
+quit-after-last-window-closed = true
+
+scrollback-limit = 104857600
+
+keybind = "ctrl+f=write_scrollback_file:open"
+keybind = cmd+up=goto_split:up
+keybind = cmd+down=goto_split:down
+keybind = cmd+left=esc:b
+keybind = cmd+right=esc:f

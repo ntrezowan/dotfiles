@@ -1,0 +1,50 @@
+[general]
+import = [
+    "~/.config/alacritty/gruvbox-material-dark-medium.toml"
+]
+
+[env]
+TERM = "alacritty"
+
+[cursor]
+style = { shape = "Block", blinking = "Off" }
+unfocused_hollow = true
+
+[window]
+padding.x = 10
+padding.y = 10
+opacity = 1.0
+
+[scrolling]
+history = 10000
+
+[font]
+normal = { family = "JetBrainsMonoNL Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMonoNL Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMonoNL Nerd Font", style = "Italic" }
+bold_italic = { family = "JetBrainsMonoNL Nerd Font", style = "Bold Italic" }
+size = 15
+
+[terminal.shell]
+program = "/opt/homebrew/bin/fish"
+
+[selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+]
+
+[[hints.enabled]]
+command         = "open"
+hyperlinks      = true
+post_processing = true
+persist         = false
+mouse = { enabled = true, mods = "Control" }
+binding         = { key = "O", mods = "Control|Shift" }
+regex           = "(ipfs:|ipns:|magnet:|mailto:|gemini://|go‐pher://|https://|http://|news:|file:|git://|ssh:|ftp://)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"

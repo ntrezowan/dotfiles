@@ -1,0 +1,55 @@
+[user]
+	name = Rez Haque
+	email = rhaque@fsu.edu
+    signingkey = E3DFEC736900FDE2
+
+
+# ============================================================================= 
+# Theme for Git
+# ============================================================================= 
+
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+
+[color "branch"]
+	current = "#A9B665 bold"
+	local = "#D4BE98"
+	remote = "#7DAEA3"
+	upstream = "#89B482"
+
+[color "diff"]
+	meta = "#928374"
+	frag = "#7DAEA3 bold"
+	old = "#EA6962"
+	new = "#A9B665"
+	commit = "#D8A657 bold"
+	whitespace = "#EA6962 reverse"
+
+[color "status"]
+	header = "#928374"
+	added = "#A9B665"
+	changed = "#D8A657"
+	untracked = "#EA6962"
+	branch = "#D4BE98 bold"
+	nobranch = "#EA6962 bold"
+
+[color "interactive"]
+	prompt = "#7DAEA3 bold"
+	header = "#928374 bold"
+	help = "#D8A657"
+	error = "#EA6962"
+
+[color "grep"]
+	context = "#D4BE98"
+	filename = "#D8A657"
+	function = "#A9B665"
+	linenumber = "#7DAEA3"
+	match = "#EA6962"
+	matchContext = "#EA6962"
+	matchSelected = "#EA6962"
+	selected = "#D4BE98"
+	separator = "#928374"

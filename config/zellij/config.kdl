@@ -1,0 +1,52 @@
+simplified_ui true
+default_shell "/opt/homebrew/bin/fish"
+pane_frames false
+default_layout "bottom-tab"
+scroll_buffer_size 50000
+//copy_on_select false
+scrollback_editor "vim"
+session_serialization true
+pane_viewport_serialization true
+show_startup_tips false
+show_release_notes false
+
+ui {
+    pane_frames {
+        hide_session_name true
+    }
+}
+
+themes {
+    gruvbox-material-dark-medium {
+        fg "#d4be98"
+        bg "#282828"
+        red "#ea6962"
+        green "#a9b665"
+        yellow "#d8a657"
+        blue "#7daea3"
+        magenta "#d3869b"
+        orange "#e78a4e"
+        cyan "#89b482"
+        black "#32302f"
+        white "#ddc7a1"
+    }
+}
+theme "gruvbox-material-dark-medium"
+
+keybinds {
+    normal {
+        bind "Ctrl d" { NewPane "Right"; }
+        bind "Ctrl D" { NewPane "Down"; }
+        bind "Ctrl -" { CloseFocus; }
+        bind "Ctrl 1" { GoToTab 1; }
+        bind "Ctrl 2" { GoToTab 2; }
+        bind "Ctrl 3" { GoToTab 3; }
+        bind "Ctrl 4" { GoToTab 4; }
+        bind "Ctrl 5" { GoToTab 5; }
+        bind "Ctrl t" { NewTab; }
+//      bind "Ctrl T" { CloseTab; }
+        bind "Ctrl r" { SwitchToMode "RenameTab"; TabNameInput 0; }
+        bind "Ctrl Up" { MoveFocus "Up"; }
+        bind "Ctrl Down" { MoveFocus "Down"; }
+    }
+}
