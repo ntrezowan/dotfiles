@@ -1,5 +1,11 @@
-
+au
 # -DRAFT-
+
+1. Minimize Dock animation delay
+
+    ```shell
+    defaults write com.apple.dock autohide-time-modifier -float 0.1; killall Dock
+    ```
 
 1. Move windows by dragging any part of the window
 
