@@ -25,6 +25,12 @@
     defaults write org.alacritty AppleFontSmoothing -int 0
     ```
 
+5. Disable bold font rendering in Weztern
+
+    ```shell
+    defaults write org.wezterm AppleFontSmoothing -int 0
+    ```
+
 ---
 
 # -Install packages-
