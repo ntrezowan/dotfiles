@@ -14,6 +14,6 @@
 
 5. Apply macOS defaults
 
-        `bash ~/Dropbox/dotfiles/scripts/macos-defaults.sh`
+      `bash ~/Dropbox/dotfiles/scripts/macos-defaults.sh`
 
 6. Restart
