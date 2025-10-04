@@ -1,8 +1,16 @@
 [user]
-	name = Rez Haque
-	email = rh@rh
+	name = 
+	email = 
     signingkey = 
 
+[includeIf "gitdir:~/git_personal/"]
+path = ~/git_personal/.gitconfig
+ 
+[includeIf "gitdir:~/git_work/"]
+path = ~/git_work/.gitconfig
+ 
+[core]
+excludesfile = ~/.gitignore
 
 # ============================================================================= 
 # Theme for Git
