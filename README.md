@@ -10,14 +10,10 @@
 
 4. Install apps
 
-  ```
-  brew bundle install --file=~/Dropbox/dotfiles/Brewfile
-  ```
+      `brew bundle install --file=~/Dropbox/dotfiles/Brewfile`
 
 5. Apply macOS defaults
 
-  ```
-  bash ~/Dropbox/dotfiles/scripts/macos-defaults.sh
-  ```
+        `bash ~/Dropbox/dotfiles/scripts/macos-defaults.sh`
 
 6. Restart
