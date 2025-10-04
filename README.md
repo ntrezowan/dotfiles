@@ -14,11 +14,11 @@
 ├── README.md
 ├── Brewfile
 ├── config/
-│   ├── fish/
-│   ├── git/
+│   ├── aerospace/
 │   ├── alacritty/
+│   ├── fish/
 │   ├── ghostty/
-│   ├── wezterm/
+│   ├── git/
 │   └── ...
 ├── scripts/
 │   ├── setup.sh
