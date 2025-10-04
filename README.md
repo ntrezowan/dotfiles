@@ -6,18 +6,23 @@
 3. Restart
 
 
+```
 ~/Dropbox/dotfiles/
-├── Brewfile                      # Your merged Brewfile
-├── config/                       # Your symlinked configs
+├── Brewfile
+├── config/
 │   ├── fish/
 │   ├── git/
+│   ├── alacritty/
+│   ├── ghostty/
+│   ├── wezterm/
 │   └── ...
 ├── scripts/
-│   ├── setup.sh                  # Main setup script (above)
-│   ├── symlinks.sh              # Your symlink script
-│   └── macos-defaults.sh        # Your defaults script
+│   ├── setup.sh
+│   ├── symlinks.sh
+│   └── macos-defaults.sh
 ├── ssh/
-│   └── config                    # SSH config (not keys!)
+│   └── config
 ├── .zshrc
 ├── .zprofile
 └── .vimrc
+```
