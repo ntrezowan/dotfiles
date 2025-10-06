@@ -1,7 +1,7 @@
 ### Steps
 1. Clone the repo
 
-      `https://github.com/ntrezowan/dotfiles.git`
+      `git clone https://github.com/ntrezowan/dotfiles.git`
 
 3. Run setup
 
