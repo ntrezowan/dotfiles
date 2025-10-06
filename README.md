@@ -1,5 +1,6 @@
 ### Steps
-1. Clone the repo
+
+1. Clone repo
 
       `git clone https://github.com/ntrezowan/dotfiles.git`
 
@@ -7,7 +8,7 @@
 
       `bash ~/dotfiles/scripts/setup.sh`
 
-4. Restart
+4. Restart machine
 
 ---
 
