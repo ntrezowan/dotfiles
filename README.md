@@ -1,16 +1,19 @@
 ### Steps
-1. Install Dropbox, sign in
-2. Run setup
+1. Clone the repo
 
-      `bash ~/Dropbox/dotfiles/scripts/setup.sh`
+      `https://github.com/ntrezowan/dotfiles.git`
 
-3. Restart
+3. Run setup
+
+      `bash ~/dotfiles/scripts/setup.sh`
+
+4. Restart
 
 ---
 
 ### Files
 ```
-~/Dropbox/dotfiles/
+~/dotfiles/
 ├── README.md
 ├── Brewfile
 ├── config/
